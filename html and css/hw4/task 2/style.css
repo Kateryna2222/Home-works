@@ -1,0 +1,34 @@
+.boxes{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 25vh auto;
+    position: relative;
+}
+
+.boxes > div{
+    height: 200px;
+    width: 200px;
+}
+
+.box1{
+    background-color: rgb(237, 109, 109);
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.box2{
+    background-color: rgb(92, 156, 229);
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: 2;
+}
+
+.box3{
+    background-color: rgb(103, 233, 181);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

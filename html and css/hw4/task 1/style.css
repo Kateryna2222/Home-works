@@ -1,0 +1,46 @@
+body{
+    background-color: #0d5825;
+    font-size: 25px;
+    color: #fff;
+}
+
+.wrap{
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    transition: 0.5s ease-out;
+}
+
+blockquote{
+    padding-top: 250px;
+}
+
+ul{
+    padding-top: 100px;
+    display: flex;
+    margin-left: 43vw;
+}
+
+.card1{
+    position: relative;
+    left: 0;
+    bottom: 5px;
+    transform: rotate(-20deg);
+}
+.card2{
+    position: relative;
+    transform: rotate(-5deg);
+    right: 85px;
+}
+.card3{
+    position: relative;
+    transform: rotate(10deg);
+    right: 180px;
+    top:15px;
+}
+
+img:hover{
+    transform: translateY(-20px);
+}

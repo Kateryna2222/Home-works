@@ -1,0 +1,22 @@
+/* завдання 1 */
+blockquote{
+    color: green;
+}
+
+/* завдання 2 */
+a[href^='https']{
+    color:  #f00;
+}
+
+.list ul a[title="youtube"]{
+    color: #ff8d00;
+}
+
+ul + p{
+    font-size: 26px;
+}
+
+a[title]{
+    border: 1px solid #067b09;
+}
+

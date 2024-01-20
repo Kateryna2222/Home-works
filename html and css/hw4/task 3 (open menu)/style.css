@@ -1,0 +1,71 @@
+a{
+    color: inherit;
+}
+
+.menu{
+    position: fixed;
+    height: 500px;
+    width: 50px;
+    left: 0;
+    top: 25vh;
+    background-color: rgb(73, 180, 242);
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    transition: 0.4s;
+}
+
+h1{
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
+    margin: 0px auto;
+    font-size: 24px;
+    font-weight: 500;
+    user-select: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+ul{
+    display: none;
+    font-size: 24px;
+    transition-delay: 0.9s;
+}
+
+li{
+    padding: 0px 0px 25px 55px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+li:hover{
+    color: #fff;
+    text-decoration: underline;
+    width: 300px;    
+}
+
+li::before{
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(img/daisy.png) no-repeat;
+    background-size: contain;
+    padding-right: 35px;
+}
+
+/* opening ----------- */
+
+.menu:hover{
+    width: 250px;
+    transition: 1s;
+}
+
+.menu:hover h1{
+    display: none;
+}
+
+.menu:hover ul{
+    display: flex;
+    flex-direction: column;
+}

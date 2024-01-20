@@ -1,0 +1,35 @@
+*{box-sizing: border-box;}
+
+/* task 2 */
+.block{
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px;
+    margin-bottom: 30px;
+    border: 2px dashed red;
+    background-color: green;
+}
+
+/* task 3 */
+.img-top{
+    margin: 0px 20px 15px 0px;
+    float: left;
+}
+
+.img-right{
+    margin: 15px 0px 15px 15px;
+    float: right;
+    width: 250px;
+    height: 138px;
+}
+
+.container{
+    font-size: 16px;
+    width: 800px;
+} 
+
+.container::after{
+    content: ".";
+    display: table;
+    clear: both;
+}

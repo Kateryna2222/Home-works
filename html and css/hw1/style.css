@@ -1,0 +1,46 @@
+*{padding: 0;margin: 0;border: 0;}
+ul li{list-style: none;}
+
+body{
+    background-color: gray;
+}
+.conteiner{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+header,footer{
+    height: 50px;
+    background-color: bisque;
+}
+header{
+    text-align: center
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ol{
+    padding-left: 10px;
+}
+.task2 ol{
+    padding-left: 25px;
+}
+.task1,.task2,.task3{
+    padding: 25px;
+}
+.task1 ul{
+    padding-top: 20px;
+}
+.task1,.task3{
+    background-color: rgb(221, 210, 198);
+}
+.task2{
+    background-color: azure;
+}
